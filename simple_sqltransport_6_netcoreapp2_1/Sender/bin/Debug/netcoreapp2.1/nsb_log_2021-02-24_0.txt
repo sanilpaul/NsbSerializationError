@@ -1,0 +1,41 @@
+﻿2021-02-24 17:51:02.940 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:51:05.436 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:51:46.620 INFO  Initiating shutdown.
+2021-02-24 17:51:46.900 INFO  Shutdown complete.
+2021-02-24 17:52:48.673 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:52:49.064 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:55:38.708 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:55:39.136 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:56:45.687 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:56:46.061 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:58:49.487 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:58:49.894 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:01:56.377 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:01:56.753 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:02:37.313 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:02:37.708 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:04:57.746 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:04:58.136 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:06:06.008 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:06:06.469 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:09:07.625 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:09:08.005 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:43:57.056 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:43:57.509 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:44:38.688 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:44:39.096 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:47:06.066 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:47:06.453 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28

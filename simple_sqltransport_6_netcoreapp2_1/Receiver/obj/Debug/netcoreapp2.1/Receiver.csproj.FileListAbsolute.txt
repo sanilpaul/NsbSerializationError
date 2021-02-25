@@ -1,0 +1,15 @@
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\Receiver.deps.json
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\Receiver.runtimeconfig.json
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\Receiver.runtimeconfig.dev.json
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\Receiver.dll
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\Receiver.pdb
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\Shared.dll
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\Shared.pdb
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.csprojAssemblyReference.cache
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.AssemblyInfoInputs.cache
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.AssemblyInfo.cs
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.csproj.CoreCompileInputs.cache
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.csproj.CopyComplete
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.dll
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.pdb
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\obj\Debug\netcoreapp2.1\Receiver.genruntimeconfig.cache

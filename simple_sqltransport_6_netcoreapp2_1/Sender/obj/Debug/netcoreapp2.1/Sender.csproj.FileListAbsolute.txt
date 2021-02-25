@@ -1,0 +1,15 @@
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\Sender.deps.json
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\Sender.runtimeconfig.json
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\Sender.runtimeconfig.dev.json
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\Sender.dll
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\Sender.pdb
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\Shared.dll
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\bin\Debug\netcoreapp2.1\Shared.pdb
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.csprojAssemblyReference.cache
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.AssemblyInfoInputs.cache
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.AssemblyInfo.cs
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.csproj.CoreCompileInputs.cache
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.csproj.CopyComplete
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.dll
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.pdb
+C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Sender\obj\Debug\netcoreapp2.1\Sender.genruntimeconfig.cache
