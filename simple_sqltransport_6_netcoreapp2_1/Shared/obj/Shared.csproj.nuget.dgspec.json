@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\side-projects\\NsbSerializationError\\simple_sqltransport_6_netcoreapp2_1\\Shared\\Shared.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\side-projects\\NsbSerializationError\\simple_sqltransport_6_netcoreapp2_1\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\side-projects\\NsbSerializationError\\simple_sqltransport_6_netcoreapp2_1\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "D:\\Code\\side-projects\\NsbSerializationError\\simple_sqltransport_6_netcoreapp2_1\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\spaul\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\side-projects\\NsbSerializationError\\simple_sqltransport_6_netcoreapp2_1\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Code\\side-projects\\NsbSerializationError\\simple_sqltransport_6_netcoreapp2_1\\NuGet.Config",
+          "C:\\Users\\spaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Code\\Aspnetcore\\Components\\packages": {},
+          "D:\\Code\\dotnetcore_components\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/particular/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NServiceBus": {
+              "target": "Package",
+              "version": "[7.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

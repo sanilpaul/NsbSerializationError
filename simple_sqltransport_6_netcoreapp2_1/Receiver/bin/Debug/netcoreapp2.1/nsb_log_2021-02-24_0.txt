@@ -1,0 +1,257 @@
+﻿2021-02-24 17:51:30.144 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:51:30.476 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:51:38.508 INFO  Hello from MyCommandHandler
+2021-02-24 17:51:42.381 INFO  Hello from MyEventHandler
+2021-02-24 17:52:49.488 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:52:49.885 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:52:53.938 INFO  Hello from MyEventHandler
+2021-02-24 17:55:39.410 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:55:39.782 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:55:44.679 ERROR Moving message '2387758f-6970-4d08-90d0-acd90179d916' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 2387758f-6970-4d08-90d0-acd90179d916 ---> System.Xml.XmlException: Data at the root level is invalid. Line 1, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at NServiceBus.XmlDeserialization.ReadStreamIntoDocument(Stream stream, Boolean sanitizeInput) in /_/src/NServiceBus.Core/Serializers/XML/XmlDeserialization.cs:line 91
+   at NServiceBus.XmlDeserialization.Deserialize(Stream stream, IList`1 messageTypesToDeserialize) in /_/src/NServiceBus.Core/Serializers/XML/XmlDeserialization.cs:line 32
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 119
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 47
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 51
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 31
+   at NServiceBus.UnitOfWorkBehavior.InvokeUnitsOfWork(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/UnitOfWork/UnitOfWorkBehavior.cs:line 40
+   at NServiceBus.MutateIncomingTransportMessageBehavior.InvokeIncomingTransportMessagesMutators(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/MessageMutators/MutateTransportMessage/MutateIncomingTransportMessageBehavior.cs:line 59
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 35
+   at NServiceBus.Transport.SqlServer.ReceiveStrategy.TryProcessingMessage(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ReceiveStrategy.cs:line 76
+   at NServiceBus.Transport.SqlServer.ProcessWithNativeTransaction.TryProcess(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ProcessWithNativeTransaction.cs:line 97
+Exception details:
+	Message ID: 2387758f-6970-4d08-90d0-acd90179d916
+	Transport message ID: a6dfdda4-4d2d-473d-a839-180a8d26a461
+2021-02-24 17:56:46.536 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:56:46.940 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:56:52.068 INFO  Hello from MyEventHandler
+2021-02-24 17:58:50.312 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 17:58:50.682 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 17:58:55.796 INFO  Hello from MyEventHandler
+2021-02-24 18:01:57.263 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:01:57.681 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:02:00.882 INFO  Hello from MyCommandHandler
+2021-02-24 18:02:38.112 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:02:38.525 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:02:54.730 INFO  Hello from MyEventHandler
+2021-02-24 18:02:56.532 ERROR Moving message 'e1ccb86c-f0a5-43fa-ba5c-acd9017bd407' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message e1ccb86c-f0a5-43fa-ba5c-acd9017bd407 ---> Newtonsoft.Json.JsonSerializationException: Error resolving type specified in JSON 'MyEvent__impl, NServiceBusMessageProxies'. Path 'MyEvent.$type', line 1, position 62. ---> System.IO.FileNotFoundException: Could not load file or assembly 'NServiceBusMessageProxies, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at System.Reflection.Assembly.LoadWithPartialName(String partialName)
+   at Newtonsoft.Json.Serialization.DefaultSerializationBinder.GetTypeFromTypeNameKey(StructMultiKey`2 typeNameKey) in /_/Src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs:line 61
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Newtonsoft.Json.Serialization.DefaultSerializationBinder.BindToType(String assemblyName, String typeName) in /_/Src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs:line 191
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 785
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 789
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadMetadataProperties(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue, Object& newValue, String& id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 739
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 451
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 1032
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 2386
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 485
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 167
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in /_/Src/Newtonsoft.Json/JsonSerializer.cs:line 907
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.ReadObject(Stream stream, Boolean isArrayStream, Type type) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 100
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.DeserializeMultipleMessageTypes(Stream stream, IList`1 messageTypes, Boolean isArrayStream) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 115
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 119
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 47
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 51
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 31
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 35
+   at NServiceBus.Transport.SqlServer.ReceiveStrategy.TryProcessingMessage(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ReceiveStrategy.cs:line 76
+   at NServiceBus.Transport.SqlServer.ProcessWithNativeTransaction.TryProcess(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ProcessWithNativeTransaction.cs:line 97
+Exception details:
+	Message ID: e1ccb86c-f0a5-43fa-ba5c-acd9017bd407
+	Transport message ID: 8331c84e-5090-4f85-ab5e-cb61c4f23b0a
+2021-02-24 18:04:58.531 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:04:58.994 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:05:04.016 INFO  Hello from MyEventHandler
+2021-02-24 18:05:05.870 ERROR Moving message 'd87dfd5e-af7b-44aa-a9ae-acd9017c6b89' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message d87dfd5e-af7b-44aa-a9ae-acd9017c6b89 ---> System.MissingMethodException: Cannot create an instance of an interface.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean wrapExceptions, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean skipCheckThis, Boolean fillCache)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at NServiceBus.XmlDeserialization.GetPropertyValue(Type type, XmlNode n) in /_/src/NServiceBus.Core/Serializers/XML/XmlDeserialization.cs:line 496
+   at NServiceBus.XmlDeserialization.GetObjectOfTypeFromNode(Type t, XmlNode node) in /_/src/NServiceBus.Core/Serializers/XML/XmlDeserialization.cs:line 321
+   at NServiceBus.XmlDeserialization.ProcessRootTypes(IEnumerable`1 rootTypes, XmlDocument doc, ICollection`1 result) in /_/src/NServiceBus.Core/Serializers/XML/XmlDeserialization.cs:line 96
+   at NServiceBus.XmlDeserialization.Deserialize(Stream stream, IList`1 messageTypesToDeserialize) in /_/src/NServiceBus.Core/Serializers/XML/XmlDeserialization.cs:line 52
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 119
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 47
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 51
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 31
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 35
+   at NServiceBus.Transport.SqlServer.ReceiveStrategy.TryProcessingMessage(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ReceiveStrategy.cs:line 76
+   at NServiceBus.Transport.SqlServer.ProcessWithNativeTransaction.TryProcess(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ProcessWithNativeTransaction.cs:line 97
+Exception details:
+	Message ID: d87dfd5e-af7b-44aa-a9ae-acd9017c6b89
+	Transport message ID: 830587e6-da1e-4e92-9283-635cd3e5f4b8
+2021-02-24 18:06:06.904 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:06:07.283 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:06:14.412 INFO  Hello from MyEventHandler
+2021-02-24 18:06:16.196 ERROR Moving message '89c88cab-ed5a-49c0-a51a-acd9017cbe08' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 89c88cab-ed5a-49c0-a51a-acd9017cbe08 ---> Newtonsoft.Json.JsonSerializationException: Error resolving type specified in JSON 'MyEvent__impl, NServiceBusMessageProxies'. Path 'MyEvent.$type', line 1, position 62. ---> System.IO.FileNotFoundException: Could not load file or assembly 'NServiceBusMessageProxies, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at System.Reflection.Assembly.LoadWithPartialName(String partialName)
+   at Newtonsoft.Json.Serialization.DefaultSerializationBinder.GetTypeFromTypeNameKey(StructMultiKey`2 typeNameKey) in /_/Src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs:line 61
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Newtonsoft.Json.Serialization.DefaultSerializationBinder.BindToType(String assemblyName, String typeName) in /_/Src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs:line 191
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 785
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 789
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadMetadataProperties(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue, Object& newValue, String& id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 739
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 451
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 1032
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 2386
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 485
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 167
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in /_/Src/Newtonsoft.Json/JsonSerializer.cs:line 907
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.ReadObject(Stream stream, Boolean isArrayStream, Type type) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 100
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.DeserializeMultipleMessageTypes(Stream stream, IList`1 messageTypes, Boolean isArrayStream) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 115
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 119
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 47
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 51
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 31
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 35
+   at NServiceBus.Transport.SqlServer.ReceiveStrategy.TryProcessingMessage(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ReceiveStrategy.cs:line 76
+   at NServiceBus.Transport.SqlServer.ProcessWithNativeTransaction.TryProcess(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ProcessWithNativeTransaction.cs:line 97
+Exception details:
+	Message ID: 89c88cab-ed5a-49c0-a51a-acd9017cbe08
+	Transport message ID: 08537e70-7857-4c5c-a08b-3e99801957d7
+2021-02-24 18:09:07.626 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:09:08.009 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:09:24.394 INFO  Hello from MyEventHandler
+2021-02-24 18:09:26.164 ERROR Moving message '8e883b7e-1725-4a15-9f6d-acd9017d9caa' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 8e883b7e-1725-4a15-9f6d-acd9017d9caa ---> Newtonsoft.Json.JsonSerializationException: Error resolving type specified in JSON 'MyEvent__impl, NServiceBusMessageProxies'. Path 'MyEvent.$type', line 1, position 62. ---> System.IO.FileNotFoundException: Could not load file or assembly 'NServiceBusMessageProxies, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, IntPtr ptrLoadContextBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark, IntPtr pPrivHostBinder)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, StackCrawlMark& stackMark)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at System.Reflection.Assembly.LoadWithPartialName(String partialName)
+   at Newtonsoft.Json.Serialization.DefaultSerializationBinder.GetTypeFromTypeNameKey(StructMultiKey`2 typeNameKey) in /_/Src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs:line 61
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Newtonsoft.Json.Serialization.DefaultSerializationBinder.BindToType(String assemblyName, String typeName) in /_/Src/Newtonsoft.Json/Serialization/DefaultSerializationBinder.cs:line 191
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 785
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 789
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadMetadataProperties(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue, Object& newValue, String& id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 739
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 451
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 1032
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 2386
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 485
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 167
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in /_/Src/Newtonsoft.Json/JsonSerializer.cs:line 907
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.ReadObject(Stream stream, Boolean isArrayStream, Type type) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 100
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.DeserializeMultipleMessageTypes(Stream stream, IList`1 messageTypes, Boolean isArrayStream) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 115
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 119
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 47
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 51
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 31
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 35
+   at NServiceBus.Transport.SqlServer.ReceiveStrategy.TryProcessingMessage(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ReceiveStrategy.cs:line 76
+   at NServiceBus.Transport.SqlServer.ProcessWithNativeTransaction.TryProcess(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ProcessWithNativeTransaction.cs:line 97
+Exception details:
+	Message ID: 8e883b7e-1725-4a15-9f6d-acd9017d9caa
+	Transport message ID: ae82a37e-a9cd-46b1-8dec-73d384fee165
+2021-02-24 18:43:57.855 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:43:58.265 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:44:39.416 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:44:39.774 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:44:43.889 INFO  Hello from MyEventHandler
+2021-02-24 18:44:45.665 ERROR Moving message '554862e4-26be-4f99-99dc-acd901875073' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 554862e4-26be-4f99-99dc-acd901875073 ---> Newtonsoft.Json.JsonSerializationException: Type specified in JSON 'MyEvent__impl, NServiceBusMessageProxies' was not resolved. Path 'MyEvent.$type', line 1, position 62.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 814
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadMetadataProperties(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue, Object& newValue, String& id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 739
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 451
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 1032
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 2386
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 485
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 167
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in /_/Src/Newtonsoft.Json/JsonSerializer.cs:line 907
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.ReadObject(Stream stream, Boolean isArrayStream, Type type) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 100
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.DeserializeMultipleMessageTypes(Stream stream, IList`1 messageTypes, Boolean isArrayStream) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 115
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 119
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 47
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 51
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 31
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 35
+   at NServiceBus.Transport.SqlServer.ReceiveStrategy.TryProcessingMessage(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ReceiveStrategy.cs:line 76
+   at NServiceBus.Transport.SqlServer.ProcessWithNativeTransaction.TryProcess(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ProcessWithNativeTransaction.cs:line 97
+Exception details:
+	Message ID: 554862e4-26be-4f99-99dc-acd901875073
+	Transport message ID: f06526d8-5b80-41a6-95e8-30a71efcfb87
+2021-02-24 18:47:06.783 INFO  Logging to 'C:\Users\spaul\Downloads\simple_sqltransport_6_netcoreapp2_1\Receiver\bin\Debug\netcoreapp2.1\' with level Info
+2021-02-24 18:47:07.180 INFO  Selected active license from C:\ProgramData\ParticularSoftware\license.xml
+License Expiration: 2021-06-28
+2021-02-24 18:47:10.286 INFO  Hello from MyEventHandler
+2021-02-24 18:47:12.069 ERROR Moving message '97e3fd2f-64b1-4031-8b9d-acd90187fc02' to the error queue 'error' because processing failed due to an exception:
+NServiceBus.MessageDeserializationException: An error occurred while attempting to extract logical messages from incoming physical message 97e3fd2f-64b1-4031-8b9d-acd90187fc02 ---> Newtonsoft.Json.JsonSerializationException: Type specified in JSON 'MyEvent__impl, NServiceBusMessageProxies' was not resolved. Path 'MyEvent.$type', line 1, position 62.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ResolveTypeName(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, String qualifiedTypeName) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 814
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadMetadataProperties(JsonReader reader, Type& objectType, JsonContract& contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue, Object& newValue, String& id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 739
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 451
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 1032
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 2386
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 485
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalReader.cs:line 167
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in /_/Src/Newtonsoft.Json/JsonSerializer.cs:line 907
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.ReadObject(Stream stream, Boolean isArrayStream, Type type) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 100
+   at NServiceBus.Newtonsoft.Json.JsonMessageSerializer.DeserializeMultipleMessageTypes(Stream stream, IList`1 messageTypes, Boolean isArrayStream) in C:\BuildAgent\work\8c06ffef3ba7e4bf\src\NServiceBus.Newtonsoft.Json\JsonMessageSerializer.cs:line 115
+   at NServiceBus.DeserializeMessageConnector.Extract(IncomingMessage physicalMessage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 119
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 47
+   --- End of inner exception stack trace ---
+   at NServiceBus.DeserializeMessageConnector.ExtractWithExceptionHandling(IncomingMessage message) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 51
+   at NServiceBus.DeserializeMessageConnector.Invoke(IIncomingPhysicalMessageContext context, Func`2 stage) in /_/src/NServiceBus.Core/Pipeline/Incoming/DeserializeMessageConnector.cs:line 31
+   at NServiceBus.ProcessingStatisticsBehavior.Invoke(IIncomingPhysicalMessageContext context, Func`2 next) in /_/src/NServiceBus.Core/Performance/Statistics/ProcessingStatisticsBehavior.cs:line 25
+   at NServiceBus.TransportReceiveToPhysicalMessageConnector.Invoke(ITransportReceiveContext context, Func`2 next) in /_/src/NServiceBus.Core/Pipeline/Incoming/TransportReceiveToPhysicalMessageConnector.cs:line 39
+   at NServiceBus.MainPipelineExecutor.Invoke(MessageContext messageContext) in /_/src/NServiceBus.Core/Pipeline/MainPipelineExecutor.cs:line 35
+   at NServiceBus.Transport.SqlServer.ReceiveStrategy.TryProcessingMessage(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ReceiveStrategy.cs:line 76
+   at NServiceBus.Transport.SqlServer.ProcessWithNativeTransaction.TryProcess(Message message, TransportTransaction transportTransaction) in /_/src/NServiceBus.Transport.SqlServer/Receiving/ProcessWithNativeTransaction.cs:line 97
+Exception details:
+	Message ID: 97e3fd2f-64b1-4031-8b9d-acd90187fc02
+	Transport message ID: 15e1ba4c-626b-428f-b6a2-c551c08cf0cb
